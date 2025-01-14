@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Write a program to count blanks, tabs, and newlines.
+
 int main() {
   long char_count = 0;
   int c, nl, tab, bl;
@@ -13,15 +15,15 @@ int main() {
       ++char_count;
     }
 
-    if ( c == '\n') {   // test for new lines
+    if (c == '\n') {   // test for new lines
       ++nl;
     }
 
-    if ( c == '\t') {   // test for tabs
+    if (c == '\t') {   // test for tabs
       ++tab;
     }
 
-    if ( c == ' ') {   // test for blanks
+    if (c == ' ') {   // test for blanks
         ++bl;
     }
   }

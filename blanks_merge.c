@@ -4,7 +4,7 @@
 
 int main () {
 
-    int c, lc = ' ';
+    int c, lc = 0;
 
     while ((c = getchar()) != EOF) {
         if (c == ' ') {     // check if current char is a blank

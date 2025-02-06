@@ -8,7 +8,7 @@ int main () {
 
     int c, nl, nw, nc, state;
 
-    state = OUT;
+    state = OUT;  // sets the value of state to OUT by default (not a word)
     nl = nw = nc = 0;
 
     while ((c = getchar()) != EOF) {

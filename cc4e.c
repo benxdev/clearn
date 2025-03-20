@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int usf, euf;
-  
-  printf("Enter US Floor:\n");
-  scanf("%d", &usf);
-  euf = usf - 1;
-  printf("EU Floor equivalent is %d\n", euf);
-  return 0;
+	char line[1000];
+	printf("Enter a new line:\n");
+	fgets(line, 1000, stdin);
+	printf("Line: %s", line);
+	return 0;
 }

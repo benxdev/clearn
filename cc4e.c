@@ -1,15 +1,18 @@
-#include <stdio.h>
-int main() {
-    int mymult();
-    int output;
-    output = mymult(324, 598);
-    printf("answer is %d\n", output);
-   
-}
+#include <stdio.h> 
+     
+int main() { 
+    char x [6];
+    x[0] = 'H';
+    x[1] = 'e';
+    x[2] = 'l';
+    x[3] = 'l';
+    x[4] = 'o';
+    x[5] = '\0';
+    printf("%s\n", x);
 
- 
-    int mymult(int a, int b) {
-  
-        int c = a * b;
-        return c;
-     }
+    x[2] = 'L';
+    printf("%s\n", x);
+
+    x[3] = '\0';
+    printf("%s\n", x);
+} 
